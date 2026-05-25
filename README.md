@@ -29,6 +29,9 @@
     Placeholder for the next version (at the beginning of the line):
     ### **WORK IN PROGRESS**
 -->
+**WORK IN PROGRESS**
+* (@misanorot) add state roles
+
 ### 4.0.4 (2026-05-17)
 * (@misanorot) fixed little JSON Ui issues
 
@@ -50,6 +53,8 @@
 * (@GermanBluefox) Refactor code and remove duplicated methods
 * (@GermanBluefox) Added option repeat writing of state values
 * (@GermanBluefox) Added option to retrigger the alarm if already triggered
+
+[Older changes](CHANGELOG_OLD.md)
 
 ## License
 MIT License

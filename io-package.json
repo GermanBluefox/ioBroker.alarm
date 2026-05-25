@@ -278,7 +278,7 @@
       "_id": "zone.one",
       "type": "state",
       "common": {
-        "role": "indicator.state",
+        "role": "indicator",
         "name": {
           "en": "Zone one",
           "de": "Gebiet eins",
@@ -316,7 +316,7 @@
       "_id": "zone.two",
       "type": "state",
       "common": {
-        "role": "indicator.state",
+        "role": "indicator",
         "name": {
           "en": "Zone two",
           "de": "Gebiet zwei",
@@ -354,7 +354,7 @@
       "_id": "zone.three",
       "type": "state",
       "common": {
-        "role": "indicator.state",
+        "role": "indicator",
         "name": {
           "en": "Zone three",
           "de": "Gebiet drei",
@@ -544,7 +544,7 @@
       "_id": "status.gets_activated",
       "type": "state",
       "common": {
-        "role": "indicator.state",
+        "role": "indicator",
         "name": {
           "en": "Gets activated",
           "de": "Wird aktiviert",
@@ -581,7 +581,7 @@
       "_id": "status.deactivated",
       "type": "state",
       "common": {
-        "role": "indicator.state",
+        "role": "indicator",
         "name": {
           "en": "Deactivated",
           "de": "Deaktiviert",
@@ -618,7 +618,7 @@
       "_id": "status.burglar_alarm",
       "type": "state",
       "common": {
-        "role": "indicator.state",
+        "role": "indicator",
         "name": {
           "en": "Burglary",
           "de": "Einbruch",
@@ -655,7 +655,7 @@
       "_id": "status.silent_alarm",
       "type": "state",
       "common": {
-        "role": "indicator.state",
+        "role": "indicator",
         "name": {
           "en": "Silent alarm",
           "de": "Stiller Alarm",
@@ -692,7 +692,7 @@
       "_id": "status.siren",
       "type": "state",
       "common": {
-        "role": "indicator.state",
+        "role": "indicator",
         "name": {
           "en": "Alarm siren",
           "de": "Alarm Sirene",
@@ -729,7 +729,7 @@
       "_id": "status.silent_flash",
       "type": "state",
       "common": {
-        "role": "indicator.state",
+        "role": "indicator",
         "name": {
           "en": "Silent light alarm",
           "de": "Stiller Lichtalarm",
@@ -766,7 +766,7 @@
       "_id": "status.alarm_flash",
       "type": "state",
       "common": {
-        "role": "indicator.state",
+        "role": "indicator",
         "name": {
           "en": "Light alarm",
           "de": "Lichtalarm",
@@ -803,7 +803,7 @@
       "_id": "status.activation_failed",
       "type": "state",
       "common": {
-        "role": "indicator.state",
+        "role": "indicator",
         "name": {
           "en": "Activation failed",
           "de": "Aktivierung fehlgeschlagen",
@@ -840,7 +840,7 @@
       "_id": "status.sleep",
       "type": "state",
       "common": {
-        "role": "indicator.state",
+        "role": "indicator",
         "name": {
           "en": "Night rest",
           "de": "Nachtruhe",
@@ -878,7 +878,7 @@
       "_id": "status.activated_with_warnings",
       "type": "state",
       "common": {
-        "role": "indicator.state",
+        "role": "indicator",
         "name": {
           "en": "Activated with warnings",
           "de": "Aktiviert mit Warnungen",
@@ -990,7 +990,7 @@
       "_id": "status.enableable",
       "type": "state",
       "common": {
-        "role": "indicator.state",
+        "role": "indicator",
         "name": {
           "en": "Enableable",
           "de": "Aktivierbar",
@@ -1101,7 +1101,7 @@
       "_id": "status.sharp_inside_activated",
       "type": "state",
       "common": {
-        "role": "indicator.state",
+        "role": "indicator",
         "name": {
           "en": "Sharp inside activated",
           "de": "Sharp innen aktiviert",
@@ -1661,7 +1661,7 @@
       "_id": "info.wrong_password",
       "type": "state",
       "common": {
-        "role": "indicator.state",
+        "role": "indicator",
         "name": {
           "en": "Wrong password",
           "de": "Falsches Passwort",
@@ -1698,7 +1698,7 @@
       "_id": "status.siren_inside",
       "type": "state",
       "common": {
-        "role": "indicator.state",
+        "role": "indicator",
         "name": {
           "en": "Sharp inside siren",
           "de": "Sirene scharf innen",
@@ -1735,7 +1735,7 @@
       "_id": "info.notification_circuit_changes",
       "type": "state",
       "common": {
-        "role": "indicator.state",
+        "role": "indicator",
         "name": {
           "en": "Changes notification circuit",
           "de": "Änderung Benachrichtigungskreis",
@@ -2068,7 +2068,7 @@
       "_id": "other_alarms.one_changes",
       "type": "state",
       "common": {
-        "role": "indicator.state",
+        "role": "indicator",
         "name": {
           "en": "List changes",
           "de": "Liste Änderungen",
@@ -2179,7 +2179,7 @@
       "_id": "other_alarms.two_changes",
       "type": "state",
       "common": {
-        "role": "indicator.state",
+        "role": "indicator",
         "name": {
           "en": "List changes",
           "de": "Liste Änderungen",
