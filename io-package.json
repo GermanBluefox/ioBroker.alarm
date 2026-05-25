@@ -278,7 +278,7 @@
       "_id": "zone.one",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "indicator.state",
         "name": {
           "en": "Zone one",
           "de": "Gebiet eins",
@@ -316,7 +316,7 @@
       "_id": "zone.two",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "indicator.state",
         "name": {
           "en": "Zone two",
           "de": "Gebiet zwei",
@@ -354,7 +354,7 @@
       "_id": "zone.three",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "indicator.state",
         "name": {
           "en": "Zone three",
           "de": "Gebiet drei",
@@ -506,7 +506,7 @@
       "_id": "status.activated",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "switch",
         "name": {
           "en": "Activated",
           "de": "Aktiviert",
@@ -544,7 +544,7 @@
       "_id": "status.gets_activated",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "indicator.state",
         "name": {
           "en": "Gets activated",
           "de": "Wird aktiviert",
@@ -581,7 +581,7 @@
       "_id": "status.deactivated",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "indicator.state",
         "name": {
           "en": "Deactivated",
           "de": "Deaktiviert",
@@ -618,7 +618,7 @@
       "_id": "status.burglar_alarm",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "indicator.state",
         "name": {
           "en": "Burglary",
           "de": "Einbruch",
@@ -655,7 +655,7 @@
       "_id": "status.silent_alarm",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "indicator.state",
         "name": {
           "en": "Silent alarm",
           "de": "Stiller Alarm",
@@ -692,7 +692,7 @@
       "_id": "status.siren",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "indicator.state",
         "name": {
           "en": "Alarm siren",
           "de": "Alarm Sirene",
@@ -729,7 +729,7 @@
       "_id": "status.silent_flash",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "indicator.state",
         "name": {
           "en": "Silent light alarm",
           "de": "Stiller Lichtalarm",
@@ -766,7 +766,7 @@
       "_id": "status.alarm_flash",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "indicator.state",
         "name": {
           "en": "Light alarm",
           "de": "Lichtalarm",
@@ -803,7 +803,7 @@
       "_id": "status.activation_failed",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "indicator.state",
         "name": {
           "en": "Activation failed",
           "de": "Aktivierung fehlgeschlagen",
@@ -840,7 +840,7 @@
       "_id": "status.sleep",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "indicator.state",
         "name": {
           "en": "Night rest",
           "de": "Nachtruhe",
@@ -878,7 +878,7 @@
       "_id": "status.activated_with_warnings",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "indicator.state",
         "name": {
           "en": "Activated with warnings",
           "de": "Aktiviert mit Warnungen",
@@ -915,7 +915,7 @@
       "_id": "status.state",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "state",
         "name": {
           "en": "State",
           "de": "Status",
@@ -952,7 +952,7 @@
       "_id": "status.state_list",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "value",
         "name": {
           "en": "State",
           "de": "Zustand",
@@ -980,17 +980,7 @@
           "zh-cn": "国家警觉系统(名单)"
         },
         "type": "number",
-        "states": {
-          "0": "deactivated",
-          "1": "sharp",
-          "2": "sharp inside",
-          "3": "burglary",
-          "4": "night rest",
-          "5": "gets activated",
-          "6": "activation failed",
-          "7": "activation aborted",
-          "8": "silent alarm"
-        },
+        "states": "0:deactivated;1:sharp;2:sharp inside;3:burglary;4:night rest;5:gets activated;6:activation failed;7:activation aborted;8:silent alarm",
         "read": true,
         "write": false
       },
@@ -1000,7 +990,7 @@
       "_id": "status.enableable",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "indicator.state",
         "name": {
           "en": "Enableable",
           "de": "Aktivierbar",
@@ -1037,7 +1027,7 @@
       "_id": "status.activation_countdown",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "value",
         "name": {
           "en": "Countdown",
           "de": "Countdown",
@@ -1074,7 +1064,7 @@
       "_id": "status.silent_countdown",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "value",
         "name": {
           "en": "Silent alarm countdown",
           "de": "Stiller Alarm Countdown",
@@ -1111,7 +1101,7 @@
       "_id": "status.sharp_inside_activated",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "indicator.state",
         "name": {
           "en": "Sharp inside activated",
           "de": "Sharp innen aktiviert",
@@ -1149,7 +1139,7 @@
       "_id": "use.list",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "level",
         "name": {
           "en": "List array",
           "de": "Listenfeld",
@@ -1177,13 +1167,7 @@
           "zh-cn": "A. 利用可观的数字改变警觉系统的状况"
         },
         "type": "number",
-        "states": {
-          "0": "disable",
-          "1": "enable",
-          "2": "sharp inside",
-          "3": "enable with delay",
-          "4": "night rest"
-        },
+        "states": "0:disable;1:enable;2:sharp inside;3:enable with delay;4:night rest",
         "read": true,
         "write": true
       },
@@ -1193,7 +1177,7 @@
       "_id": "use.enable",
       "type": "state",
       "common": {
-        "role": "button.enable",
+        "role": "button",
         "name": {
           "en": "Enable",
           "de": "Aktivieren",
@@ -1230,7 +1214,7 @@
       "_id": "use.disable",
       "type": "state",
       "common": {
-        "role": "button.disable",
+        "role": "button",
         "name": {
           "en": "Disable",
           "de": "Deaktivieren",
@@ -1267,7 +1251,7 @@
       "_id": "use.toggle_password",
       "type": "state",
       "common": {
-        "role": "switch",
+        "role": "state",
         "name": {
           "en": "Disable / Enable with password",
           "de": "Deaktivieren / Aktivieren mit Passwort",
@@ -1304,7 +1288,7 @@
       "_id": "use.disable_password",
       "type": "state",
       "common": {
-        "role": "switch",
+        "role": "state",
         "name": {
           "en": "Disable with password",
           "de": "Mit Passwort deaktivieren",
@@ -1341,7 +1325,7 @@
       "_id": "use.activate_nightrest",
       "type": "state",
       "common": {
-        "role": "button.activate.nightrest",
+        "role": "button",
         "name": {
           "en": "Activate nightrest",
           "de": "Nachtruhe aktivieren",
@@ -1379,7 +1363,7 @@
       "type": "state",
       "common": {
         "type": "boolean",
-        "role": "button.activate.sharp_inside",
+        "role": "button",
         "name": {
           "en": "Activate sharp inside",
           "de": "Scharf innen aktivieren",
@@ -1415,7 +1399,7 @@
       "_id": "use.toggle_with_delay_and_password",
       "type": "state",
       "common": {
-        "role": "switch",
+        "role": "state",
         "name": {
           "en": "Disable / Enable with delay",
           "de": "Deaktivieren / Aktivieren mit Verzögerung",
@@ -1452,7 +1436,7 @@
       "_id": "use.enable_with_delay",
       "type": "state",
       "common": {
-        "role": "button.enable",
+        "role": "button",
         "name": {
           "en": "Enable with delay",
           "de": "Mit Verzögerung aktivieren",
@@ -1489,7 +1473,7 @@
       "_id": "use.quit_changes",
       "type": "state",
       "common": {
-        "role": "button.quit",
+        "role": "button",
         "name": {
           "en": "Quit changes",
           "de": "Veränderungen quittieren",
@@ -1526,7 +1510,7 @@
       "_id": "use.panic",
       "type": "state",
       "common": {
-        "role": "button.panic",
+        "role": "button",
         "name": {
           "en": "Panic alarm",
           "de": "Panikalarm",
@@ -1601,7 +1585,7 @@
       "_id": "homekit.TargetState",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "level",
         "name": {
           "en": "List array",
           "de": "Listenfeld",
@@ -1629,12 +1613,7 @@
           "zh-cn": "3. 利用可减少数量来改变警报系统的状况(目标国)"
         },
         "type": "number",
-        "states": {
-          "0": "stayArm",
-          "1": "awayArm",
-          "2": "nightArm",
-          "3": "disarmed"
-        },
+        "states": "0:stayArm;1:awayArm;2:nightArm;3:disarmed",
         "read": true,
         "write": true
       },
@@ -1644,7 +1623,7 @@
       "_id": "homekit.CurrentState",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "value",
         "name": {
           "en": "State (list)",
           "de": "Status (Liste)",
@@ -1672,13 +1651,7 @@
           "zh-cn": "国家警觉系统"
         },
         "type": "number",
-        "states": {
-          "0": "stayArm",
-          "1": "awayArm",
-          "2": "nightArm",
-          "3": "disarmed",
-          "4": "triggered"
-        },
+        "states": "0:stayArm;1:awayArm;2:nightArm;3:disarmed;4:triggered",
         "read": true,
         "write": false
       },
@@ -1688,7 +1661,7 @@
       "_id": "info.wrong_password",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "indicator.state",
         "name": {
           "en": "Wrong password",
           "de": "Falsches Passwort",
@@ -1725,7 +1698,7 @@
       "_id": "status.siren_inside",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "indicator.state",
         "name": {
           "en": "Sharp inside siren",
           "de": "Sirene scharf innen",
@@ -1762,7 +1735,7 @@
       "_id": "info.notification_circuit_changes",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "indicator.state",
         "name": {
           "en": "Changes notification circuit",
           "de": "Änderung Benachrichtigungskreis",
@@ -1799,7 +1772,7 @@
       "_id": "info.notification_circuit_list",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "text",
         "name": {
           "en": "List notifications",
           "de": "Liste Benachrichtigungen",
@@ -1836,7 +1809,7 @@
       "_id": "info.alarm_circuit_list",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "text",
         "name": {
           "en": "List alarm circuit",
           "de": "Liste Alarmkreis",
@@ -1873,7 +1846,7 @@
       "_id": "info.sharp_inside_circuit_list",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "text",
         "name": {
           "en": "List sharp inside",
           "de": "Liste scharf innen",
@@ -1910,7 +1883,7 @@
       "_id": "info.notification_circuit_list_html",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "html",
         "name": {
           "en": "List notifications",
           "de": "Liste Benachrichtigungen",
@@ -1947,7 +1920,7 @@
       "_id": "info.alarm_circuit_list_html",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "html",
         "name": {
           "en": "List alarm circuit",
           "de": "Liste Alarmkreis",
@@ -1984,7 +1957,7 @@
       "_id": "info.sharp_inside_circuit_list_html",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "html",
         "name": {
           "en": "List sharp inside",
           "de": "Liste scharf innen",
@@ -2021,7 +1994,7 @@
       "_id": "info.log_today",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "state",
         "name": {
           "en": "Logs today",
           "de": "Logs heute",
@@ -2058,7 +2031,7 @@
       "_id": "info.log",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "state",
         "name": {
           "en": "Last log",
           "de": "Letzter Eintrag",
@@ -2095,7 +2068,7 @@
       "_id": "other_alarms.one_changes",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "indicator.state",
         "name": {
           "en": "List changes",
           "de": "Liste Änderungen",
@@ -2132,7 +2105,7 @@
       "_id": "other_alarms.one_list",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "text",
         "name": {
           "en": "List",
           "de": "Liste",
@@ -2169,7 +2142,7 @@
       "_id": "other_alarms.one_list_html",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "html",
         "name": {
           "en": "List html",
           "de": "Liste html",
@@ -2206,7 +2179,7 @@
       "_id": "other_alarms.two_changes",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "indicator.state",
         "name": {
           "en": "List changes",
           "de": "Liste Änderungen",
@@ -2243,7 +2216,7 @@
       "_id": "other_alarms.two_list",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "text",
         "name": {
           "en": "List",
           "de": "Liste",
@@ -2280,7 +2253,7 @@
       "_id": "other_alarms.two_list_html",
       "type": "state",
       "common": {
-        "role": "",
+        "role": "html",
         "name": {
           "en": "List html",
           "de": "Liste html",
