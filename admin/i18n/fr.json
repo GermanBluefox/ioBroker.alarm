@@ -1,6 +1,7 @@
 {
     "Cancel": "Annuler",
     "Edit Device:": "Modifier le dispositif",
+    "May not be empty": "Peut-être qu'il ne sera pas vide",
     "Name": "prénom",
     "Name type 1": "Nom type 1",
     "Name type 2": "Nom type 2",
@@ -14,6 +15,7 @@
     "alarm_flash": "flash de fréquence à burgle",
     "alarm_repeat": "Répéter",
     "changes_repeat": "Répéter",
+    "chatID": "Identifiant de discussion",
     "circuits": "Circuits pour sharp, sharpf inside et notifications",
     "delay": "alarme silencieuse",
     "delay_inside": "alarme silencieuse à l'intérieur",
@@ -240,6 +242,7 @@
     "tt_shortin_value": "Value of external state that triggers the action",
     "tt_speech_delay": "Delay in seconds before speech output",
     "tt_trigger_mode": "Directe : déclenche l’alarme immédiatement. Différée : déclenche l’alarme uniquement lorsque plusieurs capteurs différés se déclenchent dans un intervalle de temps donné.",
+    "user": "Utilisateur",
     "values": "définir des valeurs",
     "warning_Chips": "États pour le circuit d'avertissement",
     "words": "Mots",

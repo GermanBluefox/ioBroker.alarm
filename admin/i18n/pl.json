@@ -1,6 +1,7 @@
 {
     "Cancel": "Anuluj",
     "Edit Device:": "Edit",
+    "May not be empty": "Nie może być pusty",
     "Name": "Nazwa",
     "Name type 1": "Nazwa typu 1",
     "Name type 2": "Typ nazwy 2",
@@ -14,6 +15,7 @@
     "alarm_flash": "flash light frequency at burgle",
     "alarm_repeat": "Powtórz",
     "changes_repeat": "Powtórz",
+    "chatID": "Identyfikator czatu",
     "circuits": "Obwody do ostrych, ostrych wewnątrz i powiadomień",
     "delay": "cichy alarm",
     "delay_inside": "cichy alarm ostry w środku",
@@ -240,6 +242,7 @@
     "tt_shortin_value": "Value of external state that triggers the action",
     "tt_speech_delay": "Delay in seconds before speech output",
     "tt_trigger_mode": "Bezpośredni: uruchamia alarm natychmiast. Opóźniony: uruchamia alarm tylko wtedy, gdy w przedziale czasowym nastąpi aktywacja kilku czujników z opóźnieniem.",
+    "user": "Użytkownik",
     "values": "ustawić wartości",
     "warning_Chips": "Stany do obwodu ostrzegawczego",
     "words": "Słowa",

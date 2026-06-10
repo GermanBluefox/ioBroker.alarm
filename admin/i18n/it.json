@@ -1,6 +1,7 @@
 {
     "Cancel": "Annulla",
     "Edit Device:": "Modifica del dispositivo",
+    "May not be empty": "Potrebbe non essere vuoto",
     "Name": "nome",
     "Name type 1": "Tipo di nome 1",
     "Name type 2": "Tipo di nome 2",
@@ -14,6 +15,7 @@
     "alarm_flash": "luce flash frequenz a burgle",
     "alarm_repeat": "Ripetere",
     "changes_repeat": "Ripetere",
+    "chatID": "ID chat",
     "circuits": "Circuiti per nitidi, nitidi all'interno e notifiche",
     "delay": "allarme silenzioso",
     "delay_inside": "allarme silenzioso acuto all'interno",
@@ -240,6 +242,7 @@
     "tt_shortin_value": "Value of external state that triggers the action",
     "tt_speech_delay": "Delay in seconds before speech output",
     "tt_trigger_mode": "Diretto: attiva l'allarme immediatamente. Ritardato: attiva l'allarme solo quando più sensori ritardati si attivano entro un intervallo di tempo.",
+    "user": "Utente",
     "values": "impostare valori",
     "warning_Chips": "Stati per circuito di allarme",
     "words": "Parole",

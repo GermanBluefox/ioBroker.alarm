@@ -1,6 +1,7 @@
 {
     "Cancel": "取消",
     "Edit Device:": "编辑装置",
+    "May not be empty": "不能为空",
     "Name": "名称",
     "Name type 1": "名称类型 1",
     "Name type 2": "名称类型 2",
@@ -14,6 +15,7 @@
     "alarm_flash": "防盗闪光灯",
     "alarm_repeat": "重复",
     "changes_repeat": "重复",
+    "chatID": "聊天ID",
     "circuits": "尖锐，尖锐的内部电路和通知",
     "delay": "静音警报",
     "delay_inside": "静音报警尖锐内部",
@@ -240,6 +242,7 @@
     "tt_shortin_value": "Value of external state that triggers the action",
     "tt_speech_delay": "Delay in seconds before speech output",
     "tt_trigger_mode": "直接报警：立即触发警报。延迟报警：仅当多个延迟传感器在一定时间范围内触发时才触发警报。",
+    "user": "用户",
     "values": "设定值",
     "warning_Chips": "国家警告电路",
     "words": "话",

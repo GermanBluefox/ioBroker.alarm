@@ -1,6 +1,7 @@
 {
     "Cancel": "annuleren",
     "Edit Device:": "Edit",
+    "May not be empty": "Mag niet leeg zijn",
     "Name": "naam",
     "Name type 1": "Naamtype 1",
     "Name type 2": "Naamtype 2",
@@ -14,6 +15,7 @@
     "alarm_flash": "flitslicht frequenz bij burgle",
     "alarm_repeat": "Herhalen",
     "changes_repeat": "Herhalen",
+    "chatID": "Chat-ID",
     "circuits": "Circuits voor scherpe, scherpe binnenkant en meldingen",
     "delay": "stil alarm",
     "delay_inside": "stil alarm scherp van binnen",
@@ -240,6 +242,7 @@
     "tt_shortin_value": "Value of external state that triggers the action",
     "tt_speech_delay": "Delay in seconds before speech output",
     "tt_trigger_mode": "Direct: activeert het alarm onmiddellijk. Vertraagd: activeert het alarm pas wanneer meerdere vertraagde sensoren binnen een bepaald tijdsvenster een alarm afgeven.",
+    "user": "Gebruiker",
     "values": "waarden instellen",
     "warning_Chips": "Staten voor waarschuwingscircuit",
     "words": "Woorden",

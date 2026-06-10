@@ -1,6 +1,7 @@
 {
     "Cancel": "cancelar",
     "Edit Device:": "Editar dispositivo",
+    "May not be empty": "Puede que no esté vacío",
     "Name": "nombre",
     "Name type 1": "Tipo de nombre 1",
     "Name type 2": "Tipo de nombre 2",
@@ -14,6 +15,7 @@
     "alarm_flash": "Frecuencia de luz de flash en burgle",
     "alarm_repeat": "Repetir",
     "changes_repeat": "Repetir",
+    "chatID": "ID de chat",
     "circuits": "Circuitos para sharp, sharpf dentro y notificaciones",
     "delay": "alarma silenciosa",
     "delay_inside": "alarma silenciosa aguda en el interior",
@@ -240,6 +242,7 @@
     "tt_shortin_value": "Value of external state that triggers the action",
     "tt_speech_delay": "Delay in seconds before speech output",
     "tt_trigger_mode": "Directa: activa la alarma inmediatamente. Retardada: activa la alarma solo cuando se activan varios sensores retardados dentro de un intervalo de tiempo.",
+    "user": "Usuario",
     "values": "establecer valores",
     "warning_Chips": "Estados para circuito de advertencia",
     "words": "Palabras",

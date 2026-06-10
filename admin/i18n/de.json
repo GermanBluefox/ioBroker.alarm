@@ -1,6 +1,7 @@
 {
     "Cancel": "abbrechen",
     "Edit Device:": "Gerät bearbeiten",
+    "May not be empty": "Darf nicht leer sein",
     "Name": "Name",
     "Name type 1": "Namenstyp 1",
     "Name type 2": "Namenstyp 2",
@@ -14,6 +15,7 @@
     "alarm_flash": "Blitzlichtfrequenz bei Einbruch",
     "alarm_repeat": "Wiederholen",
     "changes_repeat": "Wiederholen",
+    "chatID": "Chat-ID",
     "circuits": "Kreise für scharf, scharf innen und Benachrichtigungen",
     "delay": "Stiller Alarm",
     "delay_inside": "Stiller Alarm scharf innen",
@@ -240,6 +242,7 @@
     "tt_shortin_value": "Wert des externen Status, der die Aktion auslöst",
     "tt_speech_delay": "Verzögerung in Sekunden vor Sprachausgabe",
     "tt_trigger_mode": "Direkt: löst sofort Alarm aus. Verzögert: löst erst Alarm aus wenn mehrere verzögerte Sensoren innerhalb eines Zeitfensters auslösen.",
+    "user": "Benutzer",
     "values": "Setzwerte",
     "warning_Chips": "Zustände für den Warnkreis",
     "words": "Texte",
