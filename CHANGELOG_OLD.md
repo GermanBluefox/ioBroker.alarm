@@ -138,6 +138,13 @@
 
 #### 0.0.8 (03.02.2020)
 * (misanorot) initial release
+## 4.0.0 (2026-03-22)
+* (@GermanBluefox) Adapter was migrated to TypeScript
+* (@GermanBluefox) GUI was migrated to JsonConfig
+* (@GermanBluefox) Refactor code and remove duplicated methods
+* (@GermanBluefox) Added option repeat writing of state values
+* (@GermanBluefox) Added option to retrigger the alarm if already triggered
+
 ## 3.7.7 (2026-03-15)
 * (misanorot) update packages
 
