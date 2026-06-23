@@ -30,7 +30,7 @@
     ### **WORK IN PROGRESS**
 -->
 **WORK IN PROGRESS**
-* (@misanorot) add state roles
+* (@misanorot) fixed checker issues
 
 ### 4.0.4 (2026-05-17)
 * (@misanorot) fixed little JSON Ui issues
