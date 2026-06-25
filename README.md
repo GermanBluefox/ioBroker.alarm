@@ -14,13 +14,11 @@
 
 [![paypal](https://www.paypalobjects.com/en_US/DK/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZYHW84XXF5REJ&source=url)
 
-## Alarmanlage für ioBroker
-
-**[Deutsche Beschreibung](docs/de/alarm.md)**
-
 ## Alarmsystem for ioBroker
 
-**[English description](docs/en/alarm_en.md)**
+**[English description](docs/en/alarm_en.md)**  
+**[Deutsche Beschreibung](docs/de/alarm.md)**
+
 
 ******************************************************************************************
 ## Changelog
@@ -47,7 +45,9 @@
 ### 4.0.1 (2026-04-07)
 * (misanorot) fixed little GUI issue at zone tab
 
-[Older changes](CHANGELOG_OLD.md)## License
+[Older changes](CHANGELOG_OLD.md)
+
+## License
 MIT License
 
 Copyright (c) 2019-2026 misanorot <audi16v@gmx.de>
