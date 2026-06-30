@@ -19,6 +19,7 @@
 **[English description](docs/en/alarm_en.md)**  
 **[Deutsche Beschreibung](docs/de/alarm.md)**
 
+This adapter allows you to set up a home alarm system without extensive programming knowledge. It offers the ability to configure 3 security circuits and monitor them during night rest, activation, or deactivation. Additionally, internal adapter states can be directly linked to external states. These links are configured in the Shortcuts tab. A simple presence simulation can be easily configured to enhance protection against burglars. Notifications about various events are also possible and can be sent via various channels such as Telegram or Email. (Provided the corresponding adapter is installed!)
 
 ******************************************************************************************
 ## Changelog
