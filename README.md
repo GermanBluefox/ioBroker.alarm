@@ -27,6 +27,9 @@ This adapter allows you to set up a home alarm system without extensive programm
     Placeholder for the next version (at the beginning of the line):
     ### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+* (@GermanBluefox) Added an alarm panel widget for vis-2 and for the devices adapter
+
 ### 5.0.2 (2026-09-28)
 * (@misanorot) fixed little issues at other alarms
 

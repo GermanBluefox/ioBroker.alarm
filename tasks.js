@@ -21,6 +21,42 @@ function copyI18nFiles() {
     copyFiles(['src/lib/i18n/*.json'], 'build/lib/i18n/');
 }
 
+// --- vis-2 widget set: src-widgets -> widgets/alarm --------------------------------------------
+
+function buildWidgets() {
+    return buildReact(`${__dirname}/src-widgets/`, { rootDir: `${__dirname}/src-widgets/`, vite: true });
+}
+
+function cleanWidgets() {
+    deleteFoldersRecursive(`${__dirname}/widgets/alarm`);
+    deleteFoldersRecursive(`${__dirname}/src-widgets/build`);
+}
+
+/**
+ * `index.html` is the stand-alone dev page and is not shipped. `mf-manifest.json` is: vis-2 reads
+ * it next to the remote entry to see which shared modules the bundle was built against.
+ */
+function copyWidgetFiles() {
+    copyFiles(['src-widgets/build/**/*', '!src-widgets/build/index.html'], 'widgets/alarm/');
+}
+
+// --- devices app tile: src-devices -> admin/dm-widgets ------------------------------------------
+
+function buildDevices() {
+    return buildReact(`${__dirname}/src-devices/`, { rootDir: `${__dirname}/src-devices/`, vite: true });
+}
+
+function cleanDevices() {
+    deleteFoldersRecursive(`${__dirname}/admin/dm-widgets`);
+    deleteFoldersRecursive(`${__dirname}/src-devices/build`);
+}
+
+function copyDeviceFiles() {
+    copyFiles(['src-devices/build/**/*', '!src-devices/build/index.html'], 'admin/dm-widgets/');
+    // The tile's icon in the catalogue of the devices app, named by `common.deviceWidgets`.
+    copyFiles(['src-devices/img/*'], 'admin/dm-widgets/');
+}
+
 if (process.argv.includes('--admin-0-clean')) {
     cleanAdmin();
 } else if (process.argv.includes('--admin-1-npm')) {
@@ -29,6 +65,18 @@ if (process.argv.includes('--admin-0-clean')) {
     buildAdmin().catch(e => console.error(e));
 } else if (process.argv.includes('--admin-3-copy')) {
     copyAllAdminFiles();
+} else if (process.argv.includes('--widgets')) {
+    cleanWidgets();
+    npmInstall(`${__dirname}/src-widgets/`)
+        .then(() => buildWidgets())
+        .then(() => copyWidgetFiles())
+        .catch(e => console.error(e));
+} else if (process.argv.includes('--devices')) {
+    cleanDevices();
+    npmInstall(`${__dirname}/src-devices/`)
+        .then(() => buildDevices())
+        .then(() => copyDeviceFiles())
+        .catch(e => console.error(e));
 } else {
     cleanAdmin();
     npmInstall(`${__dirname}/src-admin/`)
