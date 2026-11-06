@@ -29,6 +29,7 @@ This adapter allows you to set up a home alarm system without extensive programm
 -->
 ### **WORK IN PROGRESS**
 * (@GermanBluefox) Added an alarm panel widget for vis-2 and for the devices adapter
+* (@GermanBluefox) Added the alarm panel as web component `<iob-alarm-panel>` for Aura and other hosts (`common.webComponents`)
 
 ### 5.0.2 (2026-09-28)
 * (@misanorot) fixed little issues at other alarms
